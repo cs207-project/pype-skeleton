@@ -1,4 +1,4 @@
-from ast import *
+from .ast import *
 
 class PrettyPrint(ASTVisitor):
   def __init__(self):

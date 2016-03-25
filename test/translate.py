@@ -1,6 +1,6 @@
-from ast import *
-from symtab import *
-from lib_import import LibraryImporter
+from .ast import *
+from .symtab import *
+from .lib_import import LibraryImporter
 
 class SymbolTableVisitor(ASTVisitor):
   def __init__(self):
